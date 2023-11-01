@@ -71,7 +71,7 @@ function displayFollowingSlots(scheduleData, nearestSlot, showsData) {
 
 // Function to update the schedule data based on the current day and time
 async function updateScheduleData() {
-  const dayOfWeek = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+  const dayOfWeek = ['wed', 'wed', 'wed', 'wed', 'wed', 'wed', 'wed'];
   const currentDay = dayOfWeek[new Date().getDay()];
   const scheduleFileName = `/schedules/sched_${currentDay}.json`;
 
