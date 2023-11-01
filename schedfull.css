@@ -118,7 +118,7 @@ th {
 }
 
 tr.current-slot {
-    background-color: linear-gradient(180deg, rgba(196, 196, 196) 0%, rgb(156, 174, 230) 100%);
+    background-color: linear-gradient(180deg, rgba(77, 145, 255) 0%, rgb(0, 98, 217) 100%);
 }
 
 tr:nth-child(even) {
