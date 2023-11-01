@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-weight: normal;
+    background-color: grey;
+}
+
+@font-face {
+    font-family: "cnbold";
+    src: url("font/lubalin.woff") format("woff");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "gothamrnd";
+    src: url("font/gothamrounded.woff") format("woff");
+    font-weight: normal;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    width: 80%;
+    max-width: 1000px;
+    font-family: 'gothamrnd', Arial, sans-serif;
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'gothamrnd', Arial, sans-serif;
+    font-weight: normal;
+}
+
+.day-switcher {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    z-index: 1;
+    top: 0;
+}
+
+.day-switcher-button {
+    background-color: #ececec;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "cnbold", sans-serif;
+    text-transform: uppercase
+}
+
+.day-switcher-button:hover {
+    background-color: #9e9e9e;
+}
+
+tr:hover {
+    filter: brightness(0.75)
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    height: 50px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr.current-slot {
+    background-color: linear-gradient(180deg, rgba(240, 240, 240) 0%, rgb(200, 200, 200) 100%);
+}
+
+tr:nth-child(even) {
+    background: linear-gradient(180deg, rgba(76, 76, 76, 1) 0%, rgba(26, 26, 26, 1) 100%);
+    color: white
+}
+
+tr {
+    background: linear-gradient(180deg, rgba(240, 240, 240) 0%, rgb(200, 200, 200) 100%);
+}
+
+td:nth-child(1) {
+    font-family: "cnbold", sans-serif;
+    font-weight: normal;
+    width: 30px
+}
+
+h1 {
+    color: white;
+    font-family: "cnbold", sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    color: white;
+    font-family: "gothamrnd", sans-serif;
+    font-weight: normal;
+}
+
+.day-switcher-button.active {
+    background-color: #ed0080;
+    color: #ffffff;
+}
