@@ -183,4 +183,12 @@
         "rating": "tv-pg",
         "credits": "simpsons.mp4"
     }
+    "offline": {
+        "name": "NETWORK IS OFFLINE",
+        "epType": "st",
+        "index_value": 24,
+        "menuOverride": false,
+        "rating": "tv-off",
+        "credits": "off.mp4"
+    },
 }
