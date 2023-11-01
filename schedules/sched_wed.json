@@ -479,38 +479,10 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "22:05:00",
+      "tx_start": "23:05:00",
       "showId": "offline",
       "menuOverride": false,
       "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "22:15:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "22:30:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "22:45:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "23:00:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
     },
     {
       "tx_type": "show",
