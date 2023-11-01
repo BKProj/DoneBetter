@@ -1,6 +1,6 @@
 // Function to get the current time rounded down by 15 minutes in ET
 function getCurrentTimeRoundedET() {
-    const currentTime = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
+    const currentTime = new Date().toLocaleString('en-US', { timeZone: 'Europe/London' });
     const roundedTime = new Date(currentTime);
     roundedTime.setMilliseconds(0);
     roundedTime.setSeconds(0);
@@ -11,7 +11,7 @@ function getCurrentTimeRoundedET() {
 
 function updateTime() {
     const estTime = getCurrentTimeRoundedET();
-    const options = { timeZone: 'America/New_York', timeStyle: 'medium' };
+    const options = { timeZone: 'Europe/London', timeStyle: 'medium' };
     const formattedTime = estTime.toLocaleTimeString('en-US', options);
     document.getElementById('time').innerText = formattedTime;
 }
