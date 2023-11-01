@@ -1,131 +1,131 @@
 {
-    "CTN_YJ": {
-        "name": "Young Justice",
+    "NICK_SB": {
+        "name": "SpongeBob SquarePants",
         "epType": "st",
         "index_value": 2,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "yj.mp4"
+        "rating": "tv-y7",
+        "credits": "sb.mp4"
     },
-    "CTN_G": {
-        "name": "The Amazing World of Gumball",
+    "NICK_IC": {
+        "name": "iCarly",
         "epType": "st",
         "index_value": 22,
         "menuOverride": false,
-        "rating": "y7-fv",
+        "rating": "tv-g",
         "credits": "gumball.mp4"
     },
-    "CTN_SBT": {
-        "name": "Sym-Bionic Titan",
+    "NICK_DJ": {
+        "name": "Drake and Josh",
         "epType": "st",
         "index_value": 5,
         "menuOverride": false,
-        "rating": "pg-v",
-        "credits": "sbt.mp4"
+        "rating": "tv-y7",
+        "credits": "drakeandjosh.mp4"
     },
-    "CTN_CL": {
-        "name": "Clarence",
+    "NICK_LH": {
+        "name": "The Loud House",
         "epType": "st",
         "index_value": 10,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "clarence.mp4"
+        "rating": "tv-y7",
+        "credits": "loudhouse.mp4"
     },
-    "CTN_FJ": {
-        "name": "The Marvelous Misadventures of Flapjack",
+    "NICK_RLH": {
+        "name": "The Really Loud House",
         "epType": "st",
         "index_value": 4,
         "menuOverride": false,
-        "rating": "y7-fv",
-        "credits": "flapjack.mp4"
+        "rating": "tv-g",
+        "credits": "reallyloudhouse.mp4"
     },
-    "CTN_TTG": {
-        "name": "Teen Titans Go",
+    "NICK_MH": {
+        "name": "Monster High",
         "epType": "st",
         "index_value": 38,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "titansgo.mp4"
+        "rating": "tv-pg",
+        "credits": "monsterhigh.mp4"
     },
-    "CTN_LTS": {
-        "name": "The Looney Tunes Show",
+    "NICK_MH2": {
+        "name": "Monster High: 2",
         "epType": "st",
         "index_value": 9,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "lts.mp4"
+        "rating": "tv-pg",
+        "credits": "monsterhigh2.mp4"
     },
-    "CTN_AT": {
-        "name": "Adventure Time",
+    "NICK_GB": {
+        "name": "Good Burger",
         "epType": "st",
         "index_value": 26,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "adventuretime.mp4"
+        "rating": "tv-pg",
+        "credits": "goodburger.mp4"
     },
-    "CTN_CR": {
-        "name": "Craig of the Creek",
+    "NICK_GB2": {
+        "name": "Good Burger 2",
         "epType": "st",
         "index_value": 21,
         "menuOverride": false,
-        "rating": "y7",
-        "credits": "craig.mp4"
+        "rating": "tv-pg",
+        "credits": "goodburger2.mp4"
     },
-    "CTN_WBB": {
-        "name": "We Bare Bears",
+    "NICK_BN": {
+        "name": "Big Nate",
         "epType": "st",
         "index_value": 1,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "webarebears.mp4"
+        "rating": "tv-y7",
+        "credits": "bignate.mp4"
     },
-    "CTN_UG": {
-        "name": "Uncle Grandpa",
+    "NICK_ACM": {
+        "name": "ALVINNN!!! and The Chipmunks",
         "epType": "st",
         "index_value": 24,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "uncleg.mp4"
+        "rating": "tv-y7",
+        "credits": "alvinnn.mp4"
     },
-    "CTN_SU": {
-        "name": "Steven Universe",
+    "NICK_KK": {
+        "name": "Kamp Koral: SpongeBob's Under Years",
         "epType": "st",
         "index_value": 29,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "steven.mp4"
+        "rating": "tv-y7",
+        "credits": "kampkoral.mp4"
     },
-    "CTN_MAD": {
-        "name": "MAD",
+    "NICK_PSS": {
+        "name": "The Patrick Star Show",
         "epType": "st",
         "index_value": 4,
         "menuOverride": false,
-        "rating": "pg-l",
-        "credits": "mad.mp4"
+        "rating": "tv-y7",
+        "credits": "patrickshow.mp4"
     },
-    "CTN_KND": {
-        "name": "Codename: Kids Next Door",
+    "NICK_FOP": {
+        "name": "The Fairly OddParents",
         "epType": "st",
         "index_value": 1,
         "menuOverride": false,
-        "rating": "y7",
-        "credits": "knd.mp4"
+        "rating": "tv-y7",
+        "credits": "fairlyop.mp4"
     },
-    "CTN_RBT": {
-        "name": "Robotomy",
+    "NICK_SC": {
+        "name": "Sam & Cat",
         "epType": "st",
         "index_value": 2,
         "menuOverride": false,
-        "rating": "pg-v",
-        "credits": "robotomy.mp4"
+        "rating": "tv-g",
+        "credits": "samandcat.mp4"
     },
-    "CTN_BT": {
-        "name": "Batman: The Brave and The Bold",
+    "movie": {
+        "name": "Movie Time",
         "epType": "st",
         "index_value": 7,
         "menuOverride": false,
-        "rating": "y7-fv",
-        "credits": "batman.mp4"
+        "rating": "????",
+        "credits": "movietime.mp4"
     },
     "CTN_R": {
         "name": "Regular Show",
