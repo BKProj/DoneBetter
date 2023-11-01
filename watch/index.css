@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000318;
-    background-image: url("content_bg.png");
     overflow-x: hidden;
     font-weight: normal;
 }
