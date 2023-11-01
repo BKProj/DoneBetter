@@ -73,7 +73,7 @@ function displayFollowingSlots(scheduleData, nearestSlot, showsData) {
 async function updateScheduleData() {
   const dayOfWeek = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
   const currentDay = dayOfWeek[new Date().getDay()];
-  const scheduleFileName = `/schedules/sched_wed.json`;
+  const scheduleFileName = `/schedules/sched_${currentDay}.json`;
 
   try {
       const response1 = await fetch(scheduleFileName);
@@ -92,7 +92,7 @@ async function updateScheduleData() {
 }
 
 async function displaySchedule(selectedDay) {
-  const scheduleFileName = `/schedules/sched_wed.json`;
+  const scheduleFileName = `/schedules/sched_${selectedDay}.json`;
   try {
     const response1 = await fetch(scheduleFileName);
     const jsonData1 = await response1.json();
