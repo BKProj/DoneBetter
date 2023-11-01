@@ -3,8 +3,8 @@
   "schedule": {"all":[
     {
       "tx_type": "show",
-      "tx_start": "06:00:00",
-      "showId": "CTN_LTS",
+      "tx_start": "12:00:00",
+      "showId": "NICK_PSS",
       "menuOverride": false,
       "airingType": 2
     },
