@@ -118,16 +118,16 @@ th {
 }
 
 tr.current-slot {
-    background-color: linear-gradient(180deg, rgba(77, 145, 255) 0%, rgb(0, 98, 217) 100%);
+    background-color: linear-gradient(90deg, rgba(0, 106, 230) 0%, rgb(65 153 255) 100%);
 }
 
 tr:nth-child(even) {
-    background: linear-gradient(180deg, rgba(77, 145, 255) 0%, rgba(0, 98, 217) 100%);
+    background: linear-gradient(270deg, rgba(0, 69, 150) 0%, rgba(0, 21, 46) 100%);
     color: white
 }
 
 tr {
-    background: linear-gradient(180deg, rgba(77, 145, 255) 0%, rgb(0, 98, 217) 100%);
+    background: linear-gradient(90deg, rgba(0, 106, 230) 0%, rgb(65 153 255) 100%);
 }
 
 td:nth-child(1) {
@@ -145,7 +145,7 @@ h1 {
 h3 {
     color: white;
     font-family: "ginto", sans-serif;
-    font-weight: normal;
+    font-weight: light;
 }
 
 .day-switcher-button.active {
