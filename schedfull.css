@@ -118,20 +118,20 @@ th {
 }
 
 tr.current-slot {
-    background-color: linear-gradient(180deg, rgba(240, 240, 240) 0%, rgb(200, 200, 200) 100%);
+    background-color: linear-gradient(180deg, rgba(196, 196, 196) 0%, rgb(156, 174, 230) 100%);
 }
 
 tr:nth-child(even) {
-    background: linear-gradient(180deg, rgba(76, 76, 76, 1) 0%, rgba(26, 26, 26, 1) 100%);
+    background: linear-gradient(180deg, rgba(196, 196, 196) 0%, rgba(156, 174, 230) 100%);
     color: white
 }
 
 tr {
-    background: linear-gradient(180deg, rgba(240, 240, 240) 0%, rgb(200, 200, 200) 100%);
+    background: linear-gradient(180deg, rgba(196, 196, 196) 0%, rgb(156, 174, 230) 100%);
 }
 
 td:nth-child(1) {
-    font-family: "gintonord", sans-serif;
+    font-family: "ginto", sans-serif;
     font-weight: light;
     width: 30px
 }
@@ -144,7 +144,7 @@ h1 {
 
 h3 {
     color: white;
-    font-family: "gothamrnd", sans-serif;
+    font-family: "ginto", sans-serif;
     font-weight: normal;
 }
 
