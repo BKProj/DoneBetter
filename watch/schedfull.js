@@ -110,15 +110,15 @@ async function displaySchedule(selectedDay) {
 
 
 // Call the function to populate the table with today's schedule initially
-const currentDay = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'][new Date().getDay()];
-displaySchedule(currentDay || 'mon'); // Use 'mon' as the default day if currentDay is undefined
+const currentDay = ['wed', 'wed', 'wed', 'wed', 'wed', 'wed', 'wed'][new Date().getDay()];
+displaySchedule(currentDay || 'wed'); // Use 'mon' as the default day if currentDay is undefined
 
 // Set up a daily interval to update the schedule data at around 6 am
 const updateInterval = 6 * 60 * 60 * 1000; // 6 hours in milliseconds
 setInterval(() => {
   const currentTime = new Date();
   if (currentTime.getHours() === 6 && currentTime.getMinutes() < 15) {
-    const selectedDay = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'][currentTime.getDay()];
+    const selectedDay = ['wed', 'wed', 'wed', 'wed', 'wed', 'wed', 'wed'][currentTime.getDay()];
     displaySchedule(selectedDay);
   }
 }, updateInterval);
