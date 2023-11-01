@@ -132,14 +132,14 @@ tr {
 
 td:nth-child(1) {
     font-family: "gintonord", sans-serif;
-    font-weight: bold;
+    font-weight: light;
     width: 30px
 }
 
 h1 {
     color: white;
-    font-family: "cnbold", sans-serif;
-    font-weight: normal;
+    font-family: "gintonord", sans-serif;
+    font-weight: bold;
 }
 
 h3 {
