@@ -15,7 +15,7 @@ body {
     box-shadow: inset 0px 1px 2px 0 rgba(255, 255, 255, 0.15), inset -0em -0em 0em 0 rgba(0, 0, 0, 0.5);
     color: white;
     margin: 0;
-    font-family: 'cnbold', Arial, sans-serif;
+    font-family: 'gintonord', Arial, sans-serif;
     overflow: hidden;
     position: sticky;
     display: flex;
@@ -26,7 +26,7 @@ body {
 .topbar-carousel2 {
     background: inherit;
     color: white;
-    font-family: 'cnbold', Arial, sans-serif;
+    font-family: 'gintonord', Arial, sans-serif;
     font-size: 25px;
     /* Added 'px' unit */
     border: 0;
