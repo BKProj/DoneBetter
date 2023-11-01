@@ -213,16 +213,16 @@
     {
       "tx_type": "show",
       "tx_start": "13:30:00",
-      "showId": "CTN_R",
+      "showId": "TEST_0001",
       "menuOverride": false,
-      "airingType": 0
+      "airingType": 2
     },
     {
       "tx_type": "show",
       "tx_start": "13:45:00",
-      "showId": "CTN_R",
+      "showId": "TEST_0001",
       "menuOverride": false,
-      "airingType": 0
+      "airingType": 2
     },
     {
       "tx_type": "show",
