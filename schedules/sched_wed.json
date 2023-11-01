@@ -4,42 +4,42 @@
     {
       "tx_type": "show",
       "tx_start": "06:00:00",
-      "showId": "offline",
+      "showId": "CTN_LTS",
       "menuOverride": false,
       "airingType": 2
     },
     {
       "tx_type": "show",
       "tx_start": "06:15:00",
-      "showId": "offline",
+      "showId": "CTN_LTS",
       "menuOverride": false,
       "airingType": 2
     },
     {
       "tx_type": "show",
       "tx_start": "06:30:00",
-      "showId": "offline",
+      "showId": "CTN_H108",
       "menuOverride": false,
       "airingType": 0
     },
     {
       "tx_type": "show",
       "tx_start": "06:45:00",
-      "showId": "offline",
+      "showId": "CTN_H108",
       "menuOverride": false,
       "airingType": 0
     },
     {
       "tx_type": "show",
       "tx_start": "07:00:00",
-      "showId": "offline",
+      "showId": "CTN_TDI",
       "menuOverride": false,
       "airingType": 2
     },
     {
       "tx_type": "show",
       "tx_start": "07:15:00",
-      "showId": "offline",
+      "showId": "CTN_TDI",
       "menuOverride": false,
       "airingType": 2
     },
