@@ -38,7 +38,7 @@ function parseTimeToUTCDate(txStart) {
 function convertToShorterTimeFormat(timeString) {
   const [hours, minutes] = timeString.split(":");
   let hour = parseInt(hours, 10);
-  const amPm = hour >= 12 ? 'pm' : 'am';
+  const amPm = hour >= 12 ? 'p' : 'a';
   hour = hour % 12 || 12; // Convert to 12-hour format, 0 should be converted to 12
   return `${hour}:${minutes}${amPm}`;
 }
@@ -49,7 +49,7 @@ function displayFollowingSlots(scheduleData, nearestSlot, showsData) {
   let tableRows = '';
 
   for (const slot of scheduleData) {
-      const fullTitle = showsData[slot.showId]?.name || 'Title not available';
+      const fullTitle = showsData[slot.showId]?.name || 'Show Title';
       const time = convertToShorterTimeFormat(slot.tx_start);
       const imagePath = `/images/lineup/${slot.showId}.jpg?${Date.now()}`; // Add random query parameter
       const placeholderImg = 'placeholder.png';
@@ -71,7 +71,7 @@ function displayFollowingSlots(scheduleData, nearestSlot, showsData) {
 
 // Function to update the schedule data based on the current day and time
 async function updateScheduleData() {
-  const dayOfWeek = ['wed', 'wed', 'wed', 'wed', 'wed', 'wed', 'wed'];
+  const dayOfWeek = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
   const currentDay = dayOfWeek[new Date().getDay()];
   const scheduleFileName = `/schedules/sched_${currentDay}.json`;
 
@@ -105,20 +105,21 @@ async function displaySchedule(selectedDay) {
     displayFollowingSlots(scheduleData, nearestSlot, jsonData2);
   } catch (error) {
     console.error('Error fetching JSON data:', error);
+    // Handle the error, show an appropriate message, etc.
   }
 }
 
 
 // Call the function to populate the table with today's schedule initially
-const currentDay = ['wed', 'wed', 'wed', 'wed', 'wed', 'wed', 'wed'][new Date().getDay()];
-displaySchedule(currentDay || 'wed'); // Use 'mon' as the default day if currentDay is undefined
+const currentDay = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'][new Date().getDay()];
+displaySchedule(currentDay || 'mon'); // Use 'mon' as the default day if currentDay is undefined
 
 // Set up a daily interval to update the schedule data at around 6 am
 const updateInterval = 6 * 60 * 60 * 1000; // 6 hours in milliseconds
 setInterval(() => {
   const currentTime = new Date();
   if (currentTime.getHours() === 6 && currentTime.getMinutes() < 15) {
-    const selectedDay = ['wed', 'wed', 'wed', 'wed', 'wed', 'wed', 'wed'][currentTime.getDay()];
+    const selectedDay = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'][currentTime.getDay()];
     displaySchedule(selectedDay);
   }
 }, updateInterval);
