@@ -104,8 +104,7 @@ async function displaySchedule(selectedDay) {
     const nearestSlot = findNearestTimeSlot(scheduleData);
     displayFollowingSlots(scheduleData, nearestSlot, jsonData2);
   } catch (error) {
-    console.error('Error fetching JSON data:', error);
-    // Handle the error, show an appropriate message, etc.
+    console.error('Error fetching JSON data:', error)
   }
 }
 
