@@ -38,7 +38,7 @@ function parseTimeToUTCDate(txStart) {
 function convertToShorterTimeFormat(timeString) {
   const [hours, minutes] = timeString.split(":");
   let hour = parseInt(hours, 10);
-  const amPm = hour >= 12 ? 'p' : 'a';
+  const amPm = hour >= 12 ? 'pm' : 'am';
   hour = hour % 12 || 12; // Convert to 12-hour format, 0 should be converted to 12
   return `${hour}:${minutes}${amPm}`;
 }
@@ -49,7 +49,7 @@ function displayFollowingSlots(scheduleData, nearestSlot, showsData) {
   let tableRows = '';
 
   for (const slot of scheduleData) {
-      const fullTitle = showsData[slot.showId]?.name || 'Show Title';
+      const fullTitle = showsData[slot.showId]?.name || 'Title not available';
       const time = convertToShorterTimeFormat(slot.tx_start);
       const imagePath = `/images/lineup/${slot.showId}.jpg?${Date.now()}`; // Add random query parameter
       const placeholderImg = 'placeholder.png';
