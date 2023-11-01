@@ -122,12 +122,12 @@ tr.current-slot {
 }
 
 tr:nth-child(even) {
-    background: linear-gradient(180deg, rgba(196, 196, 196) 0%, rgba(0, 98, 217) 100%);
+    background: linear-gradient(180deg, rgba(77, 145, 255) 0%, rgba(0, 98, 217) 100%);
     color: white
 }
 
 tr {
-    background: linear-gradient(180deg, rgba(196, 196, 196) 0%, rgb(156, 174, 230) 100%);
+    background: linear-gradient(180deg, rgba(77, 145, 255) 0%, rgb(0, 98, 217) 100%);
 }
 
 td:nth-child(1) {
