@@ -76,6 +76,48 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "gintonord";
+    src: url("font/Ginto Nord Thin.woff") format("woff");
+    font-weight: light;
+}
+
+@font-face {
+    font-family: "gintonord";
+    src: url("font/Ginto Nord Regular.woff") format("woff");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "gintonord";
+    src: url("font/Ginto Nord Bold.woff") format("woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "gintonord";
+    src: url("font/Ginto Nord Black.woff") format("woff");
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: "ginto";
+    src: url("font/Ginto Regular.woff") format("woff");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ginto";
+    src: url("font/Ginto Bold.woff") format("woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "ginto";
+    src: url("font/Ginto Black.woff") format("woff");
+    font-weight: bolder;
+}
+
 .show-name {
     text-transform: uppercase
 }
