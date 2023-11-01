@@ -241,7 +241,7 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "14:28:00",
+      "tx_start": "14:30:00",
       "showId": "NICK_LH",
       "menuOverride": false,
       "airingType": 0
@@ -255,22 +255,22 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "14:55:00",
+      "tx_start": "15:00:00",
       "showId": "NICK_DJ",
       "menuOverride": false,
       "airingType": 0
     },
     {
       "tx_type": "show",
-      "tx_start": "15:20:00",
+      "tx_start": "15:15:00",
       "showId": "NICK_FOP",
       "menuOverride": false,
       "airingType": 0
     },
     {
       "tx_type": "show",
-      "tx_start": "15:50:00",
-      "showId": "NICK_SC",
+      "tx_start": "15:30:00",
+      "showId": "NICK_FOP",
       "menuOverride": false,
       "airingType": 0
     },
@@ -325,7 +325,7 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "17:55:00",
+      "tx_start": "17:45:00",
       "showId": "NICK_ZG",
       "menuOverride": false,
       "airingType": 0
@@ -374,7 +374,7 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "19:28:00",
+      "tx_start": "19:30:00",
       "showId": "NICK_MH2",
       "menuOverride": false,
       "airingType": 0
@@ -423,22 +423,22 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "21:20:00",
+      "tx_start": "21:15:00",
       "showId": "nitesimph1",
       "menuOverride": false,
       "airingType": 0
     },
     {
       "tx_type": "show",
-      "tx_start": "21:35:00",
+      "tx_start": "21:30:00",
       "showId": "nitesimph1",
       "menuOverride": false,
       "airingType": 0
     },
     {
       "tx_type": "show",
-      "tx_start": "21:50:00",
-      "showId": "nitesimph2",
+      "tx_start": "21:45:00",
+      "showId": "nitesimph1",
       "menuOverride": false,
       "airingType": 0
     },
@@ -465,7 +465,7 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "22:40:00",
+      "tx_start": "22:45:00",
       "showId": "nitesimph4",
       "menuOverride": false,
       "airingType": 0
@@ -473,13 +473,6 @@
     {
       "tx_type": "show",
       "tx_start": "23:00:00",
-      "showId": "nitesimph4",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "23:05:00",
       "showId": "offline",
       "menuOverride": false,
       "airingType": 0
