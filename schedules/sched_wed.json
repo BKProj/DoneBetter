@@ -256,13 +256,6 @@
     {
       "tx_type": "show",
       "tx_start": "14:55:00",
-      "showId": "NICK_LH",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "14:55:00",
       "showId": "NICK_DJ",
       "menuOverride": false,
       "airingType": 0
@@ -479,15 +472,15 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "22:00:00",
-      "showId": "nitesimph1",
+      "tx_start": "23:00:00",
+      "showId": "nitesimph4",
       "menuOverride": false,
       "airingType": 0
     },
     {
       "tx_type": "show",
       "tx_start": "22:05:00",
-      "showId": "OFFLINE",
+      "showId": "offline",
       "menuOverride": false,
       "airingType": 0
     },
