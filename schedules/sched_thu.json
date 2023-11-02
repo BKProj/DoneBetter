@@ -382,7 +382,7 @@
     {
       "tx_type": "show",
       "tx_start": "19:45:00",
-      "showId": "NICK_MH2"
+      "showId": "NICK_MH2",
       "menuOverride": false,
       "airingType": 0
     },
