@@ -3,7 +3,7 @@
     {
       "tx_type": "show",
       "tx_start": "11:45:00",
-      "showId": "OFFLINE",
+      "showId": "offline",
       "menuOverride": false,
       "airingType": 2
     },
