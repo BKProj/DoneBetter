@@ -74,7 +74,7 @@ function displayFollowingSlots(scheduleData, nearestSlot, showsData) {
 
 // Function to set the background image for each show block
 function setBackgroundForShowBlock(showBlock, showId) {
-    const imagePath = `donebetter.live/images/${showId}.png`; // Add random query parameter
+    const imagePath = `donebetter.live/images/${showId}.png?${Date.now()}`; // Add random query parameter
     const placeholderImg = 'placeholder.png'
 
     // Check if the image exists
