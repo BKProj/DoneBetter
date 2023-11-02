@@ -1,587 +1,194 @@
 {
-    "CTN_YJ": {
-        "name": "Young Justice",
+    "NICK_SB": {
+        "name": "SpongeBob SquarePants",
         "epType": "st",
         "index_value": 2,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "yj.mp4"
+        "rating": "tv-y7",
+        "credits": "sb.mp4"
     },
-    "CTN_G": {
-        "name": "The Amazing World of Gumball",
+    "NICK_IC": {
+        "name": "iCarly",
         "epType": "st",
         "index_value": 22,
         "menuOverride": false,
-        "rating": "y7-fv",
+        "rating": "tv-g",
         "credits": "gumball.mp4"
     },
-    "CTN_SBT": {
-        "name": "Sym-Bionic Titan",
+    "NICK_DJ": {
+        "name": "Drake and Josh",
         "epType": "st",
         "index_value": 5,
         "menuOverride": false,
-        "rating": "pg-v",
-        "credits": "sbt.mp4"
+        "rating": "tv-y7",
+        "credits": "drakeandjosh.mp4"
     },
-    "CTN_CL": {
-        "name": "Clarence",
+    "NICK_LH": {
+        "name": "The Loud House",
         "epType": "st",
         "index_value": 10,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "clarence.mp4"
+        "rating": "tv-y7",
+        "credits": "loudhouse.mp4"
     },
-    "CTN_FJ": {
-        "name": "The Marvelous Misadventures of Flapjack",
+    "NICK_RLH": {
+        "name": "The Really Loud House",
         "epType": "st",
         "index_value": 4,
         "menuOverride": false,
-        "rating": "y7-fv",
-        "credits": "flapjack.mp4"
+        "rating": "tv-g",
+        "credits": "reallyloudhouse.mp4"
     },
-    "CTN_TTG": {
-        "name": "Teen Titans Go",
+    "NICK_MH": {
+        "name": "Monster High",
         "epType": "st",
         "index_value": 38,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "titansgo.mp4"
+        "rating": "tv-pg",
+        "credits": "monsterhigh.mp4"
     },
-    "CTN_LTS": {
-        "name": "The Looney Tunes Show",
+    "NICK_MH2": {
+        "name": "Monster High: 2",
         "epType": "st",
         "index_value": 9,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "lts.mp4"
+        "rating": "tv-pg",
+        "credits": "monsterhigh2.mp4"
     },
-    "CTN_AT": {
-        "name": "Adventure Time",
+    "NICK_GB": {
+        "name": "Good Burger",
         "epType": "st",
         "index_value": 26,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "adventuretime.mp4"
+        "rating": "tv-pg",
+        "credits": "goodburger.mp4"
     },
-    "CTN_CR": {
-        "name": "Craig of the Creek",
+    "NICK_GB2": {
+        "name": "Good Burger 2",
         "epType": "st",
         "index_value": 21,
         "menuOverride": false,
-        "rating": "y7",
-        "credits": "craig.mp4"
+        "rating": "tv-pg",
+        "credits": "goodburger2.mp4"
     },
-    "CTN_WBB": {
-        "name": "We Bare Bears",
+    "NICK_BN": {
+        "name": "Big Nate",
         "epType": "st",
         "index_value": 1,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "webarebears.mp4"
+        "rating": "tv-y7",
+        "credits": "bignate.mp4"
     },
-    "CTN_UG": {
-        "name": "Uncle Grandpa",
+    "NICK_ACM": {
+        "name": "ALVINNN!!! and The Chipmunks",
         "epType": "st",
         "index_value": 24,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "uncleg.mp4"
+        "rating": "tv-y7",
+        "credits": "alvinnn.mp4"
     },
-    "CTN_SU": {
-        "name": "Steven Universe",
+    "NICK_KK": {
+        "name": "Kamp Koral: SpongeBob's Under Years",
         "epType": "st",
         "index_value": 29,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "steven.mp4"
+        "rating": "tv-y7",
+        "credits": "kampkoral.mp4"
     },
-    "CTN_MAD": {
-        "name": "MAD",
+    "NICK_PSS": {
+        "name": "The Patrick Star Show",
         "epType": "st",
         "index_value": 4,
         "menuOverride": false,
-        "rating": "pg-l",
-        "credits": "mad.mp4"
+        "rating": "tv-y7",
+        "credits": "patrickshow.mp4"
     },
-    "CTN_KND": {
-        "name": "Codename: Kids Next Door",
+    "NICK_FOP": {
+        "name": "The Fairly OddParents",
         "epType": "st",
         "index_value": 1,
         "menuOverride": false,
-        "rating": "y7",
-        "credits": "knd.mp4"
+        "rating": "tv-y7",
+        "credits": "fairlyop.mp4"
     },
-    "CTN_RBT": {
-        "name": "Robotomy",
+    "NICK_SC": {
+        "name": "Sam & Cat",
         "epType": "st",
         "index_value": 2,
         "menuOverride": false,
-        "rating": "pg-v",
-        "credits": "robotomy.mp4"
+        "rating": "tv-g",
+        "credits": "samandcat.mp4"
     },
-    "CTN_BT": {
-        "name": "Batman: The Brave and The Bold",
+    "movie": {
+        "name": "Movie Time",
         "epType": "st",
         "index_value": 7,
         "menuOverride": false,
-        "rating": "y7-fv",
-        "credits": "batman.mp4"
+        "rating": "????",
+        "credits": "movietime.mp4"
     },
-    "CTN_R": {
-        "name": "Regular Show",
+    "NICK_ZG": {
+        "name": "Zelly Go - JellyBean",
         "epType": "st",
         "index_value": 1,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "regularshow.mp4"
+        "rating": "tv-y7",
+        "credits": "zellygo.mp4"
     },
-    "CTN_TC": {
-        "name": "Thundercats",
+    "NICK_HD": {
+        "name": "Henry Danger",
         "epType": "st",
         "index_value": 7,
         "menuOverride": false,
-        "rating": "pg",
-        "credits": "thundercats.mp4"
+        "rating": "tv-g",
+        "credits": "henrydanger.mp4"
     },
-    "CTN_CH": {
-        "name": "Chowder",
+    "NICK_GS": {
+        "name": "GameShakers",
         "epType": "st",
         "index_value": 2,
         "menuOverride": false,
-        "rating": "y7-fv",
-        "credits": "chowder.mp4"
+        "rating": "tv-y7",
+        "credits": "gameshakers.mp4"
     },
-    "CTN_H108": {
-        "name": "Hero108",
+    "nitesimph1": {
+        "name": "The Simpsons: Treehouse Of Horror",
         "epType": "st",
         "index_value": 4,
         "menuOverride": false,
-        "rating": "y",
-        "credits": "yj.mp4"
+        "rating": "tv-pg",
+        "credits": "simpsons.mp4"
     },
-    "CTN_GARF": {
-        "name": "The Garfield Show",
+    "nitesimph2": {
+        "name": "The Simpsons: Treehouse Of Horror II",
         "epType": "st",
         "index_value": 7,
         "menuOverride": false,
-        "rating": "y7",
-        "credits": "garfield.mp4"
+        "rating": "tv-pg",
+        "credits": "simpsons.mp4"
     },
-    "CTN_KO": {
-        "name": "OK K.O.! Let's Be Heroes",
+    "nitesimph3": {
+        "name": "The Simpsons: Treehouse Of Horror III",
         "epType": "st",
         "index_value": 24,
         "menuOverride": false,
-        "rating": "y7-fv",
-        "credits": "ko.mp4"
+        "rating": "tv-pg",
+        "credits": "simpsons.mp4"
     },
-    "CTN_JT": {
-        "name": "Johnny Test",
+    "nitesimph4": {
+        "name": "The Simpsons: Treehouse Of Horror IV",
         "epType": "st",
         "index_value": 10,
         "menuOverride": false,
-        "rating": "y7",
-        "credits": "johnny.mp4"
+        "rating": "tv-pg",
+        "credits": "simpsons.mp4"
     },
-    "CTN_B10UA": {
-        "name": "Ben10: Ultimate Alien",
+    "offline": {
+        "name": "NETWORK IS OFFLINE",
         "epType": "st",
-        "index_value": 8,
+        "index_value": 24,
         "menuOverride": false,
-        "rating": "y7-fv",
-        "credits": "ultimatealien.mp4"
-    },
-    "CTN_TDI": {
-        "name": "Total Drama Island",
-        "epType": "st",
-        "index_value": 15,
-        "menuOverride": false,
-        "rating": "pg-d",
-        "credits": "tdi.mp4"
-    },
-    "CTN_MM": {
-        "name": "Mao Mao: Heroes of Pure Heart",
-        "epType": "st",
-        "index_value": 10,
-        "menuOverride": false,
-        "rating": "y7-fv",
-        "credits": "maomao.mp4"
-    },
-    "CTN_TT": {
-        "name": "Teen Titans",
-        "epType": "st",
-        "index_value": 6,
-        "menuOverride": false,
-        "rating": "y7-fv",
-        "credits": "titans.mp4"
-    },
-    "CTN_SCB": {
-        "name": "What's New, Scooby Doo?",
-        "epType": "st",
-        "index_value": 9,
-        "menuOverride": false,
-        "rating": "y7",
-        "credits": "scoob.mp4"
-    },
-    "TEST_0001": {
-        "name": "test",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "ma",
-        "credits": "maomao.mp4"
-    },
-    "CTN_BOB": {
-        "name": "Bob's Burgers",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "14",
-        "credits": "yj.mp4"
-    },
-    "CTN_SW": {
-        "name": "Star Wars: The Clone Wars",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "14",
-        "credits": "yj.mp4"
-    },
-    "CTN_GYM": {
-        "name": "My Gym Partner's a Monkey",
-        "epType": "st",
-        "index_value": 6,
-        "menuOverride": false,
-        "rating": "y7",
-        "credits": "monkey.mp4"
-    },
-    "CTN_DEX": {
-        "name": "Dexter's Laboratory",
-        "epType": "st",
-        "index_value": 2,
-        "menuOverride": false,
-        "rating": "g",
-        "credits": "dexter.mp4"
-    },
-    "CTN_PPG": {
-        "name": "Powerpuff Girls",
-        "epType": "st",
-        "index_value": 10,
-        "menuOverride": false,
-        "rating": "y7-fv",
-        "credits": "ppg.mp4"
-    },
-    "CTN_SK": {
-        "name": "Sidekick",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "y7-fv",
-        "credits": "yj.mp4"
-    },
-    "CTN_LZL": {
-        "name": "Camp Lazlo",
-        "epType": "st",
-        "index_value": 7,
-        "menuOverride": false,
-        "rating": "y7",
-        "credits": "lazlo.mp4"
-    },
-    "CTN_CRG": {
-        "name": "Courage the Cowardly Dog",
-        "epType": "st",
-        "index_value": 6,
-        "menuOverride": false,
-        "rating": "y7-fv",
-        "credits": "courage.mp4"
-    },
-    "CTN_6T": {
-        "name": "6teen",
-        "epType": "st",
-        "index_value": 10,
-        "menuOverride": false,
-        "rating": "14",
-        "credits": "6teen.mp4"
-    },
-    "CTN_BNM": {
-        "name": "The Grim Adventures of Billy and Mandy",
-        "epType": "st",
-        "index_value": 1,
-        "menuOverride": false,
-        "rating": "y7-fv",
-        "credits": "billynmandy.mp4"
-    },
-    "CTN_EDD": {
-        "name": "Ed, Edd N' Eddy",
-        "epType": "st",
-        "index_value": 2,
-        "menuOverride": false,
-        "rating": "y7",
-        "credits": "edds.mp4"
-    },
-    "AS_KOTH": {
-        "name": "King of The Hill",
-        "epType": "st",
-        "index_value": 8,
-        "menuOverride": false,
-        "rating": "14"
-    },
-    "AS_FUT": {
-        "name": "Futurama",
-        "epType": "st",
-        "index_value": 8,
-        "menuOverride": false,
-        "rating": "14"
-    },
-    "AS_FG": {
-        "name": "Family Guy",
-        "epType": "st",
-        "index_value": 2,
-        "menuOverride": false,
-        "rating": "14-dlsv"
-    },
-    "AS_AD": {
-        "name": "American Dad",
-        "epType": "st",
-        "index_value": 1,
-        "menuOverride": false,
-        "rating": "ma"
-    },
-    "AS_ANDRE": {
-        "name": "The Eric Andre Show",
-        "epType": "st",
-        "index_value": 1,
-        "menuOverride": false,
-        "rating": "ma"
-    },
-    "AS_ATHF": {
-        "name": "Aqua Teen Hunger Force",
-        "epType": "st",
-        "index_value": 6,
-        "menuOverride": false,
-        "rating": "ma"
-    },
-    "AS_RC": {
-        "name": "Robot Chicken",
-        "epType": "st",
-        "index_value": 6,
-        "menuOverride": false,
-        "rating": "14-dlsv"
-    },
-    "AS_VBR": {
-        "name": "Venture Bros.",
-        "epType": "st",
-        "index_value": 2,
-        "menuOverride": false,
-        "rating": "14"
-    },
-    "AS_SQB": {
-        "name": "Squidbillies",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "ma"
-    },
-    "AS_SF": {
-        "name": "Smiling Friends",
-        "epType": "st",
-        "index_value": 4,
-        "menuOverride": false,
-        "rating": "ma-lv"
-    },
-    "AS_MRP": {
-        "name": "Mr. Pickles",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "ma"
-    },
-    "AS_MTM": {
-        "name": "Mike Tyson Mysteries",
-        "epType": "st",
-        "index_value": 4,
-        "menuOverride": false,
-        "rating": "14-dls"
-    },
-    "AS_BND": {
-        "name": "The Boondocks",
-        "epType": "st",
-        "index_value": 3,
-        "menuOverride": false,
-        "rating": "ma"
-    },
-    "AS_SJ": {
-        "name": "Superjail!",
-        "epType": "st",
-        "index_value": 4,
-        "menuOverride": false,
-        "rating": "ma-v"
-    },
-    "AS_MH": {
-        "name": "Mission Hill",
-        "epType": "st",
-        "index_value": 3,
-        "menuOverride": false,
-        "rating": "14"
-    },
-    "AS_OF": {
-        "name": "Loiter Squad",
-        "epType": "st",
-        "index_value": 2,
-        "menuOverride": false,
-        "rating": "14"
-    },
-    "AS_CH": {
-        "name": "Clone High",
-        "epType": "st",
-        "index_value": 3,
-        "menuOverride": false,
-        "rating": "14-dlsv"
-    },
-    "AS_BJ": {
-        "name": "Bojack Horseman",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "ma"
-    },
-    "JOY_NRT": {
-        "name": "Naruto",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "pg-v"
-    },
-    "JOY_MHA": {
-        "name": "My Hero Academia",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "14"
-    },
-    "JOY_SK": {
-        "name": "Saiki Kusuo no Psi-nan",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "14"
-    },
-    "JOY_MP": {
-        "name": "Mob Psycho 100",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "14"
-    },
-    "JOY_OPM": {
-        "name": "One Punch Man",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "14"
-    },
-    "JOY_HXH": {
-        "name": "Hunter X Hunter",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "14"
-    },
-    "JOY_DN": {
-        "name": "Death Note",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "14"
-    },
-    "JOY_CB": {
-        "name": "Cowboy Bebop",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "14"
-    },
-    "JOY_JI": {
-        "name": "Junji Ito Maniac: Japanese Tales of the Macabre",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "ma"
-    },
-    "JOY_DC": {
-        "name": "Devilman Crybaby",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "ma"
-    },
-    "JOY_CM": {
-        "name": "Chainsaw Man",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "ma"
-    },
-    "JOY_JJ": {
-        "name": "Jojo's Bizzare Adventure",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "14"
-    },
-    "JOY_UWE": {
-        "name": "Unicorn: Warriors Eternal",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "pg-v",
-        "credits": "yj.mp4"
-    },
-    "CTN_TJH": {
-        "name": "The Jay House",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "pg-v",
-        "credits": "gumball.mp4"
-    },
-    "AS_JP": {
-        "name": "Joe Pera Talks With You",
-        "epType": "st",
-        "index_value": 4,
-        "menuOverride": false,
-        "rating": "pg-v"
-    },
-    "CTN_UWE": {
-        "name": "Unicorn: Warriors Eternal",
-        "epType": "st",
-        "index_value": 1,
-        "menuOverride": false,
-        "rating": "pg",
-        "credits": "uwe.mp4"
-    },
-    "CTN_MAWS": {
-        "name": "My Adventures With Superman",
-        "epType": "st",
-        "index_value": 1,
-        "menuOverride": false,
-        "rating": "pg-v",
-        "credits": "maws.mp4"
-    },
-    "CTN_SCI": {
-        "name": "Summer Camp Island",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "y7",
-        "credits": "sci.mp4"
-    },
-    "CTN_AO": {
-        "name": "Apple & Onion",
-        "epType": "st",
-        "index_value": 0,
-        "menuOverride": false,
-        "rating": "y7",
-        "credits": "applenonion.mp4"
+        "rating": "tv-off",
+        "credits": "off.mp4"
     }
 }
