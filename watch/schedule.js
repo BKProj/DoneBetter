@@ -105,7 +105,7 @@ async function updateScheduleData() {
         const response1 = await fetch(scheduleFileName);
         const jsonData1 = await response1.json();
 
-        const response2 = await fetch('shows.json');
+        const response2 = await fetch('/shows.json');
         const jsonData2 = await response2.json();
 
         const scheduleData = jsonData1.schedule.all;
