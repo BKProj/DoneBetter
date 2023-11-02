@@ -4,9 +4,9 @@
     {
       "tx_type": "show",
       "tx_start": "06:00:00",
-      "showId": "CTN_LTS",
+      "showId": "NICK_MH2",
       "menuOverride": false,
-      "airingType": 2
+      "airingType": 1,
     }
   ]}
 }
