@@ -1,173 +1,11 @@
-
 {
   "schedule": {"all":[
     {
       "tx_type": "show",
-      "tx_start": "06:00:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "06:15:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "06:30:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "06:45:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "07:00:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "07:15:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "07:30:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 1
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "07:45:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 1
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "08:00:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "08:15:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "08:30:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "08:45:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "09:00:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "09:15:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "09:30:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "09:45:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "10:00:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "10:15:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "10:30:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "10:45:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "11:00:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 1
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "11:15:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 1
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "11:30:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
       "tx_start": "11:45:00",
-      "showId": "offline",
+      "showId": "OFFLINE",
       "menuOverride": false,
-      "airingType": 0
+      "airingType": 2
     },
     {
       "tx_type": "show",
@@ -241,7 +79,7 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "14:30:00",
+      "tx_start": "14:28:00",
       "showId": "NICK_LH",
       "menuOverride": false,
       "airingType": 0
@@ -255,22 +93,22 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "15:00:00",
+      "tx_start": "14:55:00",
       "showId": "NICK_DJ",
       "menuOverride": false,
       "airingType": 0
     },
     {
       "tx_type": "show",
-      "tx_start": "15:15:00",
+      "tx_start": "15:20:00",
       "showId": "NICK_FOP",
       "menuOverride": false,
       "airingType": 0
     },
     {
       "tx_type": "show",
-      "tx_start": "15:30:00",
-      "showId": "NICK_FOP",
+      "tx_start": "15:50:00",
+      "showId": "NICK_SC",
       "menuOverride": false,
       "airingType": 0
     },
@@ -325,7 +163,7 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "17:45:00",
+      "tx_start": "17:55:00",
       "showId": "NICK_ZG",
       "menuOverride": false,
       "airingType": 0
@@ -374,7 +212,7 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "19:30:00",
+      "tx_start": "19:28:00",
       "showId": "NICK_MH2",
       "menuOverride": false,
       "airingType": 0
@@ -423,22 +261,22 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "21:15:00",
+      "tx_start": "21:20:00",
       "showId": "nitesimph1",
       "menuOverride": false,
       "airingType": 0
     },
     {
       "tx_type": "show",
-      "tx_start": "21:30:00",
+      "tx_start": "21:35:00",
       "showId": "nitesimph1",
       "menuOverride": false,
       "airingType": 0
     },
     {
       "tx_type": "show",
-      "tx_start": "21:45:00",
-      "showId": "nitesimph1",
+      "tx_start": "21:50:00",
+      "showId": "nitesimph2",
       "menuOverride": false,
       "airingType": 0
     },
@@ -465,7 +303,7 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "22:45:00",
+      "tx_start": "22:40:00",
       "showId": "nitesimph4",
       "menuOverride": false,
       "airingType": 0
@@ -473,198 +311,16 @@
     {
       "tx_type": "show",
       "tx_start": "23:00:00",
-      "showId": "offline",
+      "showId": "nitesimph4",
       "menuOverride": false,
       "airingType": 0
     },
     {
       "tx_type": "show",
-      "tx_start": "23:15:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "23:30:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "23:45:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "00:00:00",
+      "tx_start": "23:05:00",
       "showId": "offline",
       "menuOverride": false,
       "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "00:15:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "00:30:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "00:45:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "01:00:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "01:15:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "01:30:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "01:45:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "02:00:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "02:15:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "02:30:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "02:45:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "03:00:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "03:15:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 0
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "03:30:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "03:45:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "04:00:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "04:15:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "04:30:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "04:45:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "05:00:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "05:15:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "05:30:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "05:45:00",
-      "showId": "offline",
-      "menuOverride": false,
-      "airingType": 2
     }
   ]}
 }
