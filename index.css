@@ -171,7 +171,7 @@ h1 {
 .player-spacer .topbar-carousel1 {
     color: #009bdf;
     background: inherit;
-    box-shadow: inset 2px 0px 0px #cecece, inset -1.25px -0px 1.5px 0 #d6d6d6, inset 0px 1px 2px 0 rgba(255, 255, 255, 0.2);
+    box-shadow: inset 2px 0px 0px #cecece, inset -1.25px -0px 1.5px 0 #00318c, inset 0px 1px 2px 0 rgba(0, 76, 217);
 }
 
 .topbar-disabled {
