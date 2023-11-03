@@ -17,12 +17,25 @@
         <button onclick="window.location.href='/watch';" class="topbar-carousel1">WATCH</button>
         <button onclick="window.location.href='/watch/schedule';" class="topbar-carousel1">SCHEDULE</button>
     </div>
-
-    <div class="player">
-        <video-js id="my-video" class="video-js vjs-theme-forest" controls preload="auto" width="854" height="480">
-            <source src="http://hls.donebetter.live:8080/hls/goodmorningukihaveafeelingthatitsgonnabeawonderfulday.m3u8" type="application/x-mpegURL">
-        </video-js>
-        <br>
+        <!-- Include hls.js from a CDN -->
+        <script src="https://cdn.tutorialjinni.com/hls.js/1.2.1/hls.min.js"></script>
+        
+        <!-- HTML5 Video Tag -->
+        <video id="video" 
+               width='480px' height='360px' controls autoplay
+               src="http://docs.evostream.com/sample_content/assets/hls-bunny-166/playlist.m3u8">
+        </video>
+        <!-- Invocation Script -->
+        <script>
+            if (Hls.isSupported()) {
+              var video = document.getElementById('video');
+              var hls = new Hls();
+              hls.loadSource(video.src);
+              hls.attachMedia(video);
+            }else{
+                alert("Cannot stream HLS, use another video source");
+            }
+        </script>
         <div class="player-spacer">
             <h1>WHAT'S ON NOW</h1>
             <button onclick="window.location.href='./schedule';" class="topbar-carousel1">SCHEDULE ></button>
