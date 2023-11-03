@@ -140,11 +140,11 @@
 }
 
 .show-slot-lead .show-name {
-    color: black
+    color: white
 }
 
 .show-slot-lead .airing-time {
-    color: rgb(100, 100, 100);
+    color: white;
 }
 
 .show-slot:hover {
