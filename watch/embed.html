@@ -1,0 +1,55 @@
+        <div class="player-spacer">
+            <h1>WHAT'S ON NOW</h1>
+            <button onclick="window.location.href='./schedule';" class="topbar-carousel1">SCHEDULE ></button>
+        </div>
+        <div class="show-container">
+            <div class="show-slot show-slot-lead">
+                <div class="placeholder-bg"></div>
+                <div class="text-container">
+                    <p class="show-name">Loading...</p>
+                    <p class="airing-time">--:--</p>
+                </div>
+            </div>
+            <div class="show-slot">
+                <div class="placeholder-bg"></div>
+                <div class="text-container">
+                    <p class="show-name">Loading...</p>
+                    <p class="airing-time">--:--</p>
+                </div>
+            </div>
+            <div class="show-slot">
+                <div class="placeholder-bg"></div>
+                <div class="text-container">
+                    <p class="show-name">Loading...</p>
+                    <p class="airing-time">--:--</p>
+                </div>
+            </div>
+            <div class="show-slot">
+                <div class="placeholder-bg"></div>
+                <div class="text-container">
+                    <p class="show-name">Loading...</p>
+                    <p class="airing-time">--:--</p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+
+
+
+        <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+        <script src="schedule.js"></script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var player = videojs('my-video', {
+                    controls: true,
+                    autoplay: true,
+                    preload: 'auto',
+                    fluid: true,
+                    aspectRatio: '16:9',
+                    poster: 'poster.png'
+                });
+            });
+        </script>
