@@ -162,7 +162,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #000318;
+    background: linear-gradient(rgba(96, 150, 255), rgba(3, 115, 217));
     overflow-x: hidden;
     font-weight: normal;
 }
