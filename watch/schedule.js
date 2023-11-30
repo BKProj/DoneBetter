@@ -11,7 +11,7 @@ function getCurrentTimeRoundedET() {
 
 function updateTime() {
     const estTime = getCurrentTimeRoundedET();
-    const options = { timeZone: 'America/New_York', timeStyle: 'medium' };
+    const options = { timeZone: 'Europe/London', timeStyle: 'medium' };
     const formattedTime = estTime.toLocaleTimeString('en-US', options);
     document.getElementById('time').innerText = formattedTime;
 }
@@ -96,7 +96,7 @@ function setBackgroundForShowBlock(showBlock, showId) {
 
 // Function to update the schedule data based on the current day and time in ET
 async function updateScheduleData() {
-    const currentTime = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
+    const currentTime = new Date().toLocaleString('en-US', { timeZone: 'Europe/London' });
     const dayOfWeek = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
     const currentDay = dayOfWeek[new Date(currentTime).getDay()];
     const scheduleFileName = `/schedules/sched_${currentDay}.json`;
@@ -129,7 +129,7 @@ displaySchedule();
 // Set up a daily interval to update the schedule data at around 6 am in ET
 const updateInterval = 6 * 60 * 60 * 1000; // 6 hours in milliseconds
 setInterval(() => {
-    const currentTime = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
+    const currentTime = new Date().toLocaleString('en-US', { timeZone: 'Europe/London' });
     if (new Date(currentTime).getHours() === 6 && new Date(currentTime).getMinutes() < 15) {
         displaySchedule();
     }
