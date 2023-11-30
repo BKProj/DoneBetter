@@ -251,6 +251,76 @@
       "showId": "DBK_PP",
       "menuOverride": false,
       "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "18:00:00",
+      "showId": "DB_MM",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "18:25:00",
+      "showId": "DB_MM",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "18:49:00",
+      "showId": "DB_RS",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "19:02:00",
+      "showId": "DB_ZG",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "19:05:00",
+      "showId": "DB_SIMP",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "19:30:00",
+      "showId": "DB_MOVIE"
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "21:15:00",
+      "showId": "DB_DW",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "22:01:00",
+      "showId": "NB_BB",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "23:00:00",
+      "showId": "NB_BCS",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "23:58:00",
+      "showId": "NB_FG",
+      "menuOverride": false,
+      "airingType": 2
     }
   ]}
 }
