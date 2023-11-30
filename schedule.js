@@ -1,6 +1,6 @@
 // Function to get the current time rounded down by 15 minutes in ET
 function getCurrentTimeRoundedET() {
-    const currentTime = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
+    const currentTime = new Date().toLocaleString('en-US', { timeZone: 'Europe/London' });
     const roundedTime = new Date(currentTime);
     roundedTime.setMilliseconds(0);
     roundedTime.setSeconds(0);
@@ -11,7 +11,7 @@ function getCurrentTimeRoundedET() {
 
 function updateTime() {
     const estTime = getCurrentTimeRoundedET();
-    const options = { timeZone: 'America/New_York', timeStyle: 'medium' };
+    const options = { timeZone: 'Europe/London', timeStyle: 'medium' };
     const formattedTime = estTime.toLocaleTimeString('en-US', options);
     document.getElementById('time').innerText = formattedTime;
 }
@@ -74,8 +74,8 @@ function displayFollowingSlots(scheduleData, nearestSlot, showsData) {
 
 // Function to set the background image for each show block
 function setBackgroundForShowBlock(showBlock, showId) {
-    const imagePath = `/images/lineup/${showId}.jpg?${Date.now()}`; // Add random query parameter
-    const placeholderImg = 'placeholder.png'
+    const imagePath = `/images/${showId}.png?${Date.now()}`; // Add random query parameter
+    const placeholderImg = '/images/placeholder.png'
 
     // Check if the image exists
     const img = new Image();
@@ -96,7 +96,7 @@ function setBackgroundForShowBlock(showBlock, showId) {
 
 // Function to update the schedule data based on the current day and time in ET
 async function updateScheduleData() {
-    const currentTime = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
+    const currentTime = new Date().toLocaleString('en-US', { timeZone: 'Europe/London' });
     const dayOfWeek = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
     const currentDay = dayOfWeek[new Date(currentTime).getDay()];
     const scheduleFileName = `/schedules/sched_${currentDay}.json`;
@@ -129,7 +129,7 @@ displaySchedule();
 // Set up a daily interval to update the schedule data at around 6 am in ET
 const updateInterval = 6 * 60 * 60 * 1000; // 6 hours in milliseconds
 setInterval(() => {
-    const currentTime = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
+    const currentTime = new Date().toLocaleString('en-US', { timeZone: 'Europe/London' });
     if (new Date(currentTime).getHours() === 6 && new Date(currentTime).getMinutes() < 15) {
         displaySchedule();
     }
