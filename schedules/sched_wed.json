@@ -79,7 +79,21 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "4:01:00",
+      "tx_start": "4:00:00",
+      "showId": "offline",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "12:00:00",
+      "showId": "offline",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "24:00:00",
       "showId": "offline",
       "menuOverride": false,
       "airingType": 2
