@@ -13,6 +13,132 @@
       "showId": "DB_SIMP",
       "menuOverride": false,
       "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "7:25:00",
+      "showId": "DB_ON",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "7:55:00",
+      "showId": "DB_ZG",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "7:57:00",
+      "showId": "DB_DW",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "8:46:00",
+      "showId": "DB_DW",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "9:34:00",
+      "showId": "DB_FU",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "10:00:00",
+      "showId": "DB_YS",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "19:24:00",
+      "showId": "DB_FU",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "10:50:00",
+      "showId": "DB_MI",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "11:21:00",
+      "showId": "DB_MI",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "11:53:00",
+      "showId": "DB_OFH",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "12:25:00",
+      "showId": "DB_ZG",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "12:27:00",
+      "showId": "DB_ZG",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "12:30:00",
+      "showId": "DB_FU",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "12:55:00",
+      "showId": "DB_BB",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "13:34:00",
+      "showId": "DB_ON",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "14:20:00",
+      "showId": "DB_RS",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "14:32:00",
+      "showId": "DB_RS",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "14:45:00",
+      "showId": "DB_RS",
+      "menuOverride": false,
+      "airingType": 2
     }
   ]}
 }
