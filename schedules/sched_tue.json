@@ -139,6 +139,118 @@
       "showId": "DB_RS",
       "menuOverride": false,
       "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "15:00:00",
+      "showId": "DBK_PP",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "15:04:00",
+      "showId": "DBK_PP",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "15:10:00",
+      "showId": "DBK_PP",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "15:15:00",
+      "showId": "DBK_BHLK",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "15:29:00",
+      "showId": "DBK_PAWP",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "15:42:00",
+      "showId": "DBK_44C",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "15:53:00",
+      "showId": "DBK_AU",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "16:06:00",
+      "showId": "DBK_BL",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "16:15:00",
+      "showId": "DBK_BL",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "16:24:00",
+      "showId": "DBK_SBSP",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "16:37:00",
+      "showId": "DBK_SBSP",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "16:51:00",
+      "showId": "DBK_PP",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "16:55:00",
+      "showId": "DBK_SU",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "17:08:00",
+      "showId": "DBK_CL",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "17:32:00",
+      "showId": "DBK_LTS",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "17:55:00",
+      "showId": "DBK_PP",
+      "menuOverride": false,
+      "airingType": 2
     }
   ]}
 }
