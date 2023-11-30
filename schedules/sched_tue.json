@@ -290,7 +290,7 @@
     {
       "tx_type": "show",
       "tx_start": "19:30:00",
-      "showId": "DB_MOVIE"
+      "showId": "DB_MOVIE",
       "menuOverride": false,
       "airingType": 2
     },
