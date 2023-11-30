@@ -58,13 +58,6 @@
     },
     {
       "tx_type": "show",
-      "tx_start": "19:24:00",
-      "showId": "DB_FU",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
       "tx_start": "10:50:00",
       "showId": "DB_MI",
       "menuOverride": false,
