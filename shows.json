@@ -127,7 +127,7 @@
         "rating": "????",
         "credits": "movietime.mp4"
     },
-    "NICK_ZG": {
+    "DB_ZG": {
         "name": "Zelly Go - JellyBean",
         "epType": "st",
         "index_value": 1,
@@ -150,6 +150,286 @@
         "menuOverride": false,
         "rating": "tv-y7",
         "credits": "gameshakers.mp4"
+    },
+    "DB_SIMP": {
+        "name": "The Simpsons",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "simpsons.mp4"
+    },
+    "DB_ON": {
+        "name": "Outnumbered",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "outnumbered.mp4"
+    },
+    "DB_DW": {
+        "name": "Doctor Who",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "docwho.mp4"
+    },
+    "DB_FU": {
+        "name": "Futurama",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "futurama.mp4"
+    },
+    "DB_YS": {
+        "name": "Young Sheldon",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "youngsheldon.mp4"
+    },
+    "DB_MI": {
+        "name": "Miranda",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "miranda.mp4"
+    },
+    "DB_OFH": {
+        "name": "Only Fools and Horses",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "foolsandhorses.mp4"
+    },
+    "DB_BB": {
+        "name": "Bob's Burgers",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "bobburgers.mp4"
+    },
+    "DB_RS": {
+        "name": "Regular Show",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "regularshow.mp4"
+    },
+    "DBK_PP": {
+        "name": "Peppa Pig",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "peppapig.mp4"
+    },
+    "DBK_PP": {
+        "name": "Peppa Pig",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "peppapig.mp4"
+    },
+    "DBK_BHLK": {
+        "name": "Ben & Holly's Little Kingdom",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "benandholly.mp4"
+    },
+    "DBK_PAWP": {
+        "name": "PAW Patrol",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "pawpatrol.mp4"
+    },
+    "DBK_44C": {
+        "name": "44 Cats",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "44cats.mp4"
+    },
+    "DBK_AU": {
+        "name": "Arthur",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "arthur.mp4"
+    },
+    "DBK_BL": {
+        "name": "Bluey",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "bluey.mp4"
+    },
+    "DBK_SBSP": {
+        "name": "SpongeBob SquarePants",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "spongebob.mp4"
+    },
+    "DBK_SU": {
+        "name": "Steven Universe",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "stevenuniverse.mp4"
+    },
+    "DBK_CL": {
+        "name": "Clarence",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "clarence.mp4"
+    },
+    "DBK_LTS": {
+        "name": "The Looney Tunes Show",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "looneytunes.mp4"
+    },
+    "DB_MM": {
+        "name": "Malcom in the Middle",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "malcom.mp4"
+    },
+    "DBK_": {
+        "name": "Peppa Pig",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "peppapig.mp4"
+    },
+    "DB_MOVIE": {
+        "name": "Movies!",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "movies.mp4"
+    },
+    "NB_BB": {
+        "name": "Breaking Bad",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "breakingbad.mp4"
+    },
+    "NB_BCS": {
+        "name": "Better Call Saul",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "bettercallsaul.mp4"
+    },
+    "NB_FG": {
+        "name": "Family Guy",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "familyguy.mp4"
+    },
+    "NB_AD": {
+        "name": "American Dad",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "americandad.mp4"
+    },
+    "NB_ON": {
+        "name": "Outnumbered",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "outnumberednight.mp4"
+    },
+    "NB_RS": {
+        "name": "Regular Show",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "regularshownight.mp4"
+    },
+    "NB_TS": {
+        "name": "The Simpsons",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "simpsonsnight.mp4"
+    },
+    "NB_MI": {
+        "name": "Miranda",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "mirandanight.mp4"
+    },
+    "NB_ZG": {
+        "name": "ZellyGo! Jelly Bean",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "zellygo.mp4"
+    },
+    "NB_CHILL": {
+        "name": "chill with donebetter..",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "chill.mp4"
+    },
+    "NB_DBP": {
+        "name": "DoneBetter Preview",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "donebetterpreview.mp4"
+    },
+    "NB_TIDB": {
+        "name": "This is DoneBetter.",
+        "epType": "st",
+        "index_value": 4,
+        "menuOverride": false,
+        "rating": "tv-pg",
+        "credits": "thisisdonebetter.mp4"
     },
     "nitesimph1": {
         "name": "The Simpsons: Treehouse Of Horror",
