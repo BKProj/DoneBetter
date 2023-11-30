@@ -51,7 +51,7 @@ function displayFollowingSlots(scheduleData, nearestSlot, showsData) {
   for (const slot of scheduleData) {
       const fullTitle = showsData[slot.showId]?.name || 'Show Title';
       const time = convertToShorterTimeFormat(slot.tx_start);
-      const imagePath = `/images/lineup/${slot.showId}.jpg?${Date.now()}`; // Add random query parameter
+      const imagePath = `/images/${slot.showId}.png?${Date.now()}`; // Add random query parameter
       const placeholderImg = 'placeholder.png';
 
       // Add a CSS class 'highlighted' to the row for the nearest slot
