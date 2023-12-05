@@ -47,7 +47,7 @@ function findNearestTimeSlot(scheduleData) {
 function convertToShorterTimeFormat(timeString) {
     const [hours, minutes] = timeString.split(":");
     let hour = parseInt(hours, 10);
-    const amPm = hour >= 12 ? 'p' : 'a';
+    const amPm = hour >= 12 ? 'pm' : 'am';
     hour = hour % 12 || 12; // Convert to 12-hour format, 0 should be converted to 12
     return `${hour}:${minutes}${amPm}`;
 }
@@ -74,7 +74,7 @@ function displayFollowingSlots(scheduleData, nearestSlot, showsData) {
 
 // Function to set the background image for each show block
 function setBackgroundForShowBlock(showBlock, showId) {
-    const imagePath = `/images/${showId}.png?${Date.now()}`; // Add random query parameter
+    const imagePath = `https://donebetter.live/images/${showId}.png?${Date.now()}`; // Add random query parameter
     const placeholderImg = '/images/placeholder.png'
 
     // Check if the image exists
