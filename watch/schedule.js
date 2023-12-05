@@ -75,7 +75,7 @@ function displayFollowingSlots(scheduleData, nearestSlot, showsData) {
 // Function to set the background image for each show block
 function setBackgroundForShowBlock(showBlock, showId) {
     const imagePath = `/images/${showId}.png?${Date.now()}`; // Add random query parameter
-    const placeholderImg = '/images/placeholder.png'
+    const placeholderImg = `/images/${showId}.png?${Date.now()}`
 
     // Check if the image exists
     const img = new Image();
