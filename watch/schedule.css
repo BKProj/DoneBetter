@@ -118,10 +118,10 @@
 }
 
 .show-name {
-    text-transform: uppercase
+    text-transform: none
 }
 
-.show-time {
+.airing-time {
     color: rgb(200, 200, 200);
     font-size: 14px
 }
