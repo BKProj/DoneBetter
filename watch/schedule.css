@@ -39,7 +39,7 @@
 /* Additional styles for the text elements */
 
 .show-name,
-.show-time {
+.airing-time {
     margin: 0;
 }
 
@@ -142,7 +142,7 @@
     color: white
 }
 
-.show-slot-lead .show-time {
+.show-slot-lead .airing-time {
     color: white;
 }
 
