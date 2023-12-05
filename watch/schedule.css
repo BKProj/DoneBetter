@@ -32,7 +32,8 @@
     bottom: 5px;
     left: 5px;
     text-align: left;
-    width: 100%;
+    width: 94%;
+    background-color: rgb(0 0 0 / 66%);
     /* Make the text container span the entire width */
 }
 
