@@ -2,7 +2,28 @@
   "schedule": {"all":[
     {
       "tx_type": "show",
+      "tx_start": "0:00:00",
+      "showId": "offline",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "6:00:00",
+      "showId": "offline",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
       "tx_start": "12:00:00",
+      "showId": "offline",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "24:00:00",
       "showId": "offline",
       "menuOverride": false,
       "airingType": 2
