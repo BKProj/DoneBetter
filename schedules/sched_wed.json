@@ -2,84 +2,14 @@
   "schedule": {"all":[
     {
       "tx_type": "show",
-      "tx_start": "00:24:00",
-      "showId": "NB_FG",
+      "tx_start": "0:00:00",
+      "showId": "offline",
       "menuOverride": false,
       "airingType": 2
     },
     {
       "tx_type": "show",
-      "tx_start": "00:50:00",
-      "showId": "NB_AD",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "1:15:00",
-      "showId": "NB_ON",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "1:46:00",
-      "showId": "NB_RS",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "2:00:00",
-      "showId": "NB_RS",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "2:14:00",
-      "showId": "NB_TS",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "2:40:00",
-      "showId": "NB_MI",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "3:12:00",
-      "showId": "NB_ZG",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "3:15:00",
-      "showId": "NB_CHILL",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "3:45:00",
-      "showId": "NB_DBP",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "3:55:00",
-      "showId": "NB_TIDB",
-      "menuOverride": false,
-      "airingType": 2
-    },
-    {
-      "tx_type": "show",
-      "tx_start": "4:00:00",
+      "tx_start": "6:00:00",
       "showId": "offline",
       "menuOverride": false,
       "airingType": 2
