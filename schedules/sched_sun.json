@@ -30,6 +30,13 @@
     },
     {
       "tx_type": "show",
+      "tx_start": "13:00:00",
+      "showId": "DB_SIMP",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
       "tx_start": "13:25:00",
       "showId": "DB_ON",
       "menuOverride": false,
