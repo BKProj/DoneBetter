@@ -2,8 +2,29 @@
   "schedule": {"all":[
     {
       "tx_type": "show",
-      "tx_start": "13:00:00",
-      "showId": "DB_SIMP",
+      "tx_start": "3:00:00",
+      "showId": "offline",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "6:00:00",
+      "showId": "offline",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "9:00:00",
+      "showId": "offline",
+      "menuOverride": false,
+      "airingType": 2
+    },
+    {
+      "tx_type": "show",
+      "tx_start": "12:00:00",
+      "showId": "offline",
       "menuOverride": false,
       "airingType": 2
     },
